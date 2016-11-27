@@ -29,14 +29,14 @@ pre[class*="language-"] {
 
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
-	background: hsla(0, 0%, 0%, 0.6); /* #141414 */
+	background: hsla(0, 0%, 8%, 0.6); /* #141414 */
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-	border-radius: .5em;
-	border: .2em solid hsla(0, 0%, 100%, 0.5); /* #282A2B */
-	box-shadow: 1px 1px .5em black inset;
+	/* border-radius: .5em; */
+	border: .2em solid hsla(0, 0%, 100%, 0.7); /* #282A2B */
+	/* box-shadow: 1px 1px .5em black inset; */
 	margin: .5em 0;
 	overflow: auto;
 	padding: 1em;
