@@ -141,6 +141,12 @@ body{
 	border-color:#fff;
 }
 
+#blog-pager{
+	background-color: #0006;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 
 
 
