@@ -1,11 +1,16 @@
 
-#header{
+.title {
   color: black !important;
+}
+
+.description {
+    color: #0003;
 }
 
 .content-inner{
   background: none
 }
+
 
 blockquote {
   background: rgba(10, 10, 10, 0.4);
