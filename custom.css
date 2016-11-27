@@ -147,6 +147,13 @@ body{
 	padding-right: 2em;
 }
 
+input[type="text"], textarea {
+    background-color: #FFF9;
+}
+
+.contact-form-email-message {
+    background-color: #FFF9;
+}
 
 
 
