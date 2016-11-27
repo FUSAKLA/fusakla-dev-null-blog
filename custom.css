@@ -4,7 +4,7 @@
 }
 
 .description {
-    color: #0003;
+    color: #FFF6;
 }
 
 .content-inner{
@@ -71,6 +71,7 @@ body{
    padding-top: 1em;
    padding: 1em;
    background: rgba(0, 0, 0, 0.3);
+   color: white !important
 }
 
 #ContactForm1{
