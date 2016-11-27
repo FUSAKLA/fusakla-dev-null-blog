@@ -1,0 +1,90 @@
+blockquote {
+  background: rgba(10, 10, 10, 0.4);
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: white
+}
+blockquote:before {
+  color: white;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: white;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+  position: relative;
+  left: 94%
+}
+blockquote p {
+  display: inline;
+}
+
+.hentry{
+     margin-bottom: 3em;
+}
+
+.post-outer{
+    border-bottom: 1pt solid rgba(255, 255, 255, 0.8);
+}
+
+
+.post-body{
+  background: rgba(100, 100, 100, 0.8);
+  padding: 2em; 
+  width: auto;
+  margin-bottom: 0.5em !important
+}
+
+.post-footer{
+  padding-left: 1em
+}
+
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.sidebar .widget{
+   padding-top: 1em;
+   padding: 1em;
+   background: rgba(0, 0, 0, 0.3);
+}
+
+#ContactForm1{
+   padding-bottom: 1em;
+}
+
+.fauxcolumn-inner{
+   background: none !important;
+}
+
+.sidebar{
+   margin: 0px;
+}
+.date-header{
+    color: black !important;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+    letter-spacing: 3px;
+    margin: inherit;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.date-header span{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.post-body{
+    margin-bottom: 2em;
+}
