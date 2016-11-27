@@ -3,6 +3,12 @@ h1.title {
   color: black !important;
 }
 
+h3.post-title a {
+    font: normal 30px 'Trebuchet MS',Trebuchet,sans-serif;
+    color: #000;
+    margin-left: 1em;
+}
+
 .description {
     color: #FFF6;
 }
@@ -42,23 +48,28 @@ blockquote p {
 }
 
 .hentry{
-     margin-bottom: 3em;
+     padding-top: 0.1em;
 }
 
 .post-outer{
     border-bottom: 1pt solid rgba(255, 255, 255, 0.8);
+    background-color: #ffffff80;
+    margin-bottom: 5em;
 }
 
 
 .post-body{
-  background: rgba(100, 100, 100, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   padding: 2em; 
   width: auto;
   margin-bottom: 0.5em !important
 }
 
-.post-footer{
-  padding-left: 1em
+.post-footer {
+    padding-left: 1em;
+    background: rgba(0, 0, 0, 0.8);
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 body{
@@ -70,7 +81,7 @@ body{
 .sidebar .widget{
    padding-top: 1em;
    padding: 1em;
-   background: rgba(0, 0, 0, 0.3);
+   background: rgba(0, 0, 0, 0.6);
    color: white !important
 }
 
@@ -93,6 +104,9 @@ body{
     margin: inherit;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0.2em solid rgba(0, 0, 0, 0.8);
+    border-top: 0.2em solid rgba(0, 0, 0, 0.8);
+    padding-top: 0.2em;
 }
 
 .date-header span{
@@ -103,3 +117,44 @@ body{
 .post-body{
     margin-bottom: 2em;
 }
+
+
+.contact-form-button-submit:focus,.contact-form-button-submit.focus {
+	border-color:#fff
+}
+
+.contact-form-button-submit {
+	background-color: none !important;
+  background-image: none !important;
+	border:1px solid #fff;
+	color:#fff;
+}
+
+.contact-form-button-submit:hover {
+	background-color:black !importnant;
+	border:1px solid #fff;
+	color:#fff;
+}
+
+.contact-form-button-submit:hover {
+	background-color:black !important;
+	border-color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
